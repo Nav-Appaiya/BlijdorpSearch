@@ -18,4 +18,6 @@ require_once 'BlijdorpScraper.php';
         die(
             $blijdorp->getResults()
         );
+    } else{
+        die( 'No Keyword provided, please add ?keyword= to the url with your keyword' );
     }
